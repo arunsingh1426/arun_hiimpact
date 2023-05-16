@@ -64,7 +64,9 @@ function App() {
           <p className="mw700 mcen text-center pb30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
           <div className="row align-items-center">
             <div className="col-lg-6 col-sm-6 py20">
-              <img src="./img/home/3.png" alt="our feature" />
+              {/* <img src="./img/home/3.png" alt="our feature" /> */}
+              <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_czj9tlje.json"  speed="1"  loop autoplay></lottie-player>
+
             </div>
             {/* Arun singh Copyright © 2023   */}
          
@@ -81,7 +83,8 @@ function App() {
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
             </div>
             <div className="col-lg-6 col-sm-6 py20">
-              <img src="./img/home/2.png" alt="our feature" />
+              {/* <img src="./img/home/2.png" alt="our feature" /> */}
+              <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_8ztbxqr1.json"  speed="1"  loop autoplay></lottie-player>
             </div>
 {/*  Copyright © 2023 Arun singh   */}
           </div>
@@ -104,8 +107,8 @@ function App() {
 
 
     <div className="spaceY60">
-      <div className="container">
-        <div className="row subscribeWrap">
+      <div className="container p0 ">
+        <div className="row subscribeWrap mx1">
           <div className="col-lg-9 col-md-12 col-sm-12">
             <h2 className="title cwhite">Subscribe to get Updated</h2>
             <p className="cwhite "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -120,6 +123,7 @@ function App() {
     </div>
 
     <Footer />
+
     </div>
   );
 }

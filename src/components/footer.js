@@ -58,7 +58,7 @@ function Footer() {
                 </Accordion>
                 </div>
               <div className='w20 inerbox m-dn'>
-                
+                <h4>catagories</h4>
                  <ul>
                   <li><a href="/#">Product Management</a></li>
                   <li><a href="/#">Design / Creatives</a></li>

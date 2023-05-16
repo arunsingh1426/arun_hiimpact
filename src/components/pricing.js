@@ -5,7 +5,15 @@ import "../style/index.scss"
 
 
 function Pricing() {
-
+  window.addEventListener('resize', function(event){
+    if(window.innerWidth <= 901){
+        document.getElementById("priceActive").classList.remove("active");
+    }
+    else{
+        document.getElementById("priceActive").classList.add("active");
+        
+    }
+});
   return (
     <>
       <div className="spaceY60">
@@ -38,7 +46,7 @@ function Pricing() {
                         <a className="btn pricelink" href="/#">Signup for free</a>
                     </div>
                   </div>
-                  <div className="items active">
+                  <div className="items active" id="priceActive">
                    <h4>Pro</h4>
                    <p>Experiment the power of infinite possibilities</p>
                    <h3><span>$</span>3</h3>
@@ -93,7 +101,7 @@ function Pricing() {
                         <a className="btn pricelink" href="/#">Signup for free</a>
                     </div>
                   </div>
-                  <div className="items active">
+                  <div className="items active" id="priceActive">
                    <h4>Pro</h4>
                    <p>Experiment the power of infinite possibilities</p>
                    <h3><span>$</span>12</h3>
